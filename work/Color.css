@@ -1,0 +1,48 @@
+
+
+.Red{
+    background: brown;
+    height: 100px;
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.Blue{
+    background: darkblue;
+    height: 100px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+.Green{
+    background: darkgreen;
+    height: 100px;
+    width: 400px;
+}
+.map{
+    justify-items: center;
+    color:blue;
+    
+    /*width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    */
+    
+}
+.card{
+    background: rgba(174, 7, 46, 0.386);
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 5px solid rgb(19, 118, 101);
+    border-radius: 30px;
+    
+
+    
+}
+.card :hover{
+    background: rgb(179, 255, 0);
+    color: rgb(224, 2, 2);
+}
