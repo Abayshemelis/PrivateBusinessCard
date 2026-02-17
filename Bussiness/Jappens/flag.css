@@ -10,14 +10,18 @@
     margin-right: auto;
     width: 50px;
 }
+.cls{
+ border-bottom: 5px solid white;
+}
 .background{
-    background-image: url("img/Univers.jpg");
-    color:white;
-    width: 500px;
-    height: 400Px;
+    background-image: url("img/galaxy.webp");
+    background-size: cover;
+    color:#82a5ca;
+    width: 900px;
+    height: 500Px;
     margin-left: auto;
     margin-right: auto;
-    background-size: cover;
+    position: relative;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -27,17 +31,34 @@
 }
    
 .btn{
-    padding: 10px;
+    padding: 6px 12px;
     background-color: white;
     margin-top: 10px;
-    width: 200px;
-    height: 50px;
-    border-radius: 10px;
-    color: white;
-    background-color: rgb(0, 204, 255);
+    width: 80px;
+    height: 30px;
+    font-family: inherit;
     
 }  
 .title_center{
    margin-top: px;
-   font-family: inherit;
+   font-family: 'Orbitron','sans-serif';
+   font-size: 50px;
+   text-shadow: 5px 0 rgb(227, 234, 238);
+}
+.main_logo{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 180px;
+
+   /* mix-blend-mode: screen; -->it used to remove blackbackground color of image
+   mix-blend-mode: multiply;..> it used to remove white background of image color*/
+   
+   
+   
+    
+   
+   
 }
