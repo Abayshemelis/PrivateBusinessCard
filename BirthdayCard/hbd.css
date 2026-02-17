@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    font-family: 'Tangerine', serif;
+    font-size: 30px;
+   
+    background: #a2d2ff;
+    color :white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#bff{
+    width: 150px;
+    border-radius: 100%;
+    border: 6px solid pink
+}
+h1,h2,h4{
+    text-shadow: 4px,0#a2d2ff;
+}
+h2,h4{
+   background: pink;
+   margin:2px;
+   padding: 10px;
+   border-radius: 5px;
+    
+
+}
