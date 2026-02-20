@@ -2,7 +2,6 @@ body{
     text-align: center;
     font-family: 'Tangerine', serif;
     font-size: 30px;
-   
     background: #a2d2ff;
     color :white;
     display: flex;
@@ -14,14 +13,106 @@ body{
     border-radius: 100%;
     border: 6px solid pink
 }
-h1,h2,h4{
+header{
     text-shadow: 4px,0#a2d2ff;
+    display:flex;
+   
+    
 }
-h2,h4{
+#byears{
    background: pink;
    margin:2px;
    padding: 10px;
    border-radius: 5px;
+   width:500px;
+   margin-left:100px
+  
+}
+#bdate{
+    width:300px;
+    background: pink;
+    border-radius: 5px;
+    margin-left: 200px; 
+    margin-top :5px;
+
+}
+.gift_card{
+    margin-top: 50px;
+}
+.gift-image{
+    margin: 0 auto;
+    width: 600px;
+    height: 380px;
+    border:6px solid white;
+    border-radius: 10px;
+    background-image: url(img/images.jpg);
+    background-size: cover;
+}
+.gift_title{
+    margin-top: 10px;
+}
+.gift-hint{
     
+    margin-top: 0px;
+}
+.gift-image:hover{
+    background-image: url(img/giphy.webp);
+    height: 900px;
+    width: 950px;
+}
+.gift-images{
+     background-size: cover;
+    background-image: url(img/images.jpg);
+    border-radius: 5px ;
+    border: 6px solid white;
+    width: 600px;
+    height: 380px;
+    
+}
+.gift-images:hover{
+    width: 800px;
+    background-image: url(img/giphies.webp);
+}
+.smart{
+    background-size: cover;
+    background-image: url(img/images.jpg);
+    border-radius: 5px ;
+    border: 6px solid white;
+    width: 600px;
+    height: 380px;
+    
+
+}
+.smart:hover{
+     width: 800px;
+    background-image: url(img/smart.webp);
+    height: 500px;
+}
+.poo{
+    background-size: cover;
+    background-image: url(img/images.jpg);
+    border-radius: 5px ;
+    border: 6px solid white;
+    width: 600px;
+    height: 380px;
+
+}
+.poo:hover{
+     width: 800px;
+     height: 800px;
+    background-image: url(img/poo.webp);
+}
+.cheers{
+    background-size: cover;
+    background-image: url(img/images.jpg);
+    border-radius: 5px ;
+    border: 6px solid white;
+    width: 600px;
+    height: 380px;
+}
+.cheers:hover{
+     width: 800px;
+     height: 400px;
+    background-image: url(img/cheers.webp);
 
 }
