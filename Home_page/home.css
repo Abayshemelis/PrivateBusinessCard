@@ -1,0 +1,31 @@
+body{
+     
+    justify-content: center;
+    padding: 10px;
+   
+}
+
+.H_bg{
+    width: 600px;
+    height: 300px;
+    background-image: url(img/myhome.jpg);
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin :auto;
+}
+.title{
+   
+    color:aqua;
+    margin:20px;
+    font-family:  Geneva, Verdana, sans-serif;
+}
+.description{
+    color:lightskyblue;
+    margin:20px;
+    font-family:  Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
