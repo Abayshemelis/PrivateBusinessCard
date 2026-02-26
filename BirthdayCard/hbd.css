@@ -11,8 +11,8 @@ body{
 #bff{
     width: 150px;
     border-radius: 100%;
-    border: 6px solid pink
-}
+    border: 6px solid pink;
+    
 header{
     text-shadow: 4px,0#a2d2ff;
     display:flex;
@@ -25,7 +25,9 @@ header{
    padding: 10px;
    border-radius: 5px;
    width:500px;
-   margin-left:100px
+   margin-left:100px;
+   text-align: center;
+}
   
 }
 #bdate{
@@ -34,7 +36,7 @@ header{
     border-radius: 5px;
     margin-left: 200px; 
     margin-top :5px;
-
+    text-align: center;
 }
 .gift_card{
     margin-top: 50px;
@@ -113,6 +115,59 @@ header{
 .cheers:hover{
      width: 800px;
      height: 400px;
-    background-image: url(img/cheers.webp);
+    background-image: url(img/cheers.webp); 
+    
 
+
+}
+.image_group {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  margin: 50px auto;
+  cursor: pointer;
+}
+
+/* Base style for all images */
+.image_group img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* The Main Background (Top Layer) */
+.main-img {
+  z-index: 3;
+}
+
+/* --- THE HOVER REVEAL --- */
+
+/* Slide the first hidden image to the left */
+.image_group:hover .layer-1 {
+  transform: translate(-105%, -105%) rotate(-10deg);
+  
+}
+
+/* Slide the second hidden image to the right */
+.image_group:hover .layer-2 {
+  transform: translate(105%, -105%) rotate(10deg);
+  
+}
+.image_group:hover .layer-3 {
+  transform: translate(-105%, 105%) rotate(-10deg);
+
+}
+.image_group:hover .layer-4 {
+  transform: translate(105%, 105%) rotate(10deg);
+  
+}
+
+/* Optional: Make the main image slightly bigger on hover */
+.image_group:hover .main-img {
+  transform: scale(1.05);
 }
