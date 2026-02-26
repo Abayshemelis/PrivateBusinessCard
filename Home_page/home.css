@@ -2,7 +2,9 @@ body{
      
     justify-content: center;
     padding: 10px;
-   
+    background: linear-gradient(lightskyblue,pink);
+    border-radius: 10px;
+    border: solid paleturquoise 10px;
 }
 
 .H_bg{
@@ -59,3 +61,25 @@ column-gap: 150px;
     
 }
 
+#img_title{
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+
+}
+.headers{
+     display: flex;
+    text-align: center;
+    justify-content: center;
+    column-gap: 150px;
+}
+
+.container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    column-gap: 100px;
+
+}
