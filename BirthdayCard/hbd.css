@@ -10,6 +10,7 @@ body{
 }
 #bff{
     width: 150px;
+    height: 150px;
     border-radius: 100%;
     border: 6px solid pink;
     
