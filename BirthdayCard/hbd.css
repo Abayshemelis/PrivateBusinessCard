@@ -2,11 +2,11 @@ body{
     text-align: center;
     font-family: 'Tangerine', serif;
     font-size: 30px;
-    background: #a2d2ff;
     color :white;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background:linear-gradient(#a2d2ff,pink)
 }
 #bff{
     width: 150px;
