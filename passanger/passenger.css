@@ -1,18 +1,32 @@
 body{
-    background: hsl(120, 100%, 93%);
-    text-align: center;
-}
-#Increament_btn{
-    background: darkred;
+    background: rgb(142, 176, 205);
+    display: flex;
     align-items: center;
-
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(img/busstation.jpg);
+    background-size: cover;
+   
+}
+   
+#Increament_btn{
+    margin: 10px;
+    width:300px;
+    background: darkred;
 }
 button{
     padding:10px;
     border:solid rgb(0, 123, 255);
     border-radius: 10px;
-    background: darkred;
-    align-items: center;
+   
+    text-align: center;
+    justify-content: center;
+    color: aquamarine;
 
     
+}
+#save_btn{
+ padding: 10px;
+ width: 300px;
+  background: darkgreen;
 }
