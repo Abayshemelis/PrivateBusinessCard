@@ -1,0 +1,18 @@
+body{
+    background: hsl(120, 100%, 93%);
+    text-align: center;
+}
+#Increament_btn{
+    background: darkred;
+    align-items: center;
+
+}
+button{
+    padding:10px;
+    border:solid rgb(0, 123, 255);
+    border-radius: 10px;
+    background: darkred;
+    align-items: center;
+
+    
+}
