@@ -7,17 +7,17 @@ let count = 0;
 function Increament() {
     count += 1;
     CountEl.textContent = count
-} 
+}
 
 function save() {
     let countstr = count + " - "
-    saveEl.innerText = countstr
+    saveEl.innerText += countstr
 
 
-   CountEl.textContent = 0
+    CountEl.textContent = 0 
     console.log(count)
 }
- 
+
 
 
 
